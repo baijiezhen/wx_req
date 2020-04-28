@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/life/life"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color": "#cdcdcd",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "list":[
+        {
+            "selectedIconPath": "image/icons/home1.png",
+            "iconPath": "image/icons/home.png",
+            "pagePath": "pages/index/index",
+            "text": "首页"
+        },
+        {
+            "selectedIconPath": "image/icons/life1.png",
+            "iconPath": "image/icons/life.png",
+            "pagePath": "pages/life/life",
+            "text": "生活指数"
+        }
+    ]
+  },
+"permission": {
+    "scope.userLocation": {
+        "desc": "您的位置信息将用于向您显示所在地的天气状况"
+    }
+}
+}
